@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+
 import datetime
 import asyncio
 from telegram import (
@@ -145,4 +147,5 @@ if __name__ == "__main__":
     app.add_handler(MessageHandler(filters.PHOTO, handle_screenshot))
 
     print("Bot is running...")
+    keep_alive()
     app.run_polling()
