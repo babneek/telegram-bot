@@ -17,7 +17,7 @@ from telegram.ext import (
 )
 
 # ==== CONFIG ====
-BOT_TOKEN = "7740623914:AAFUcxpHgWyaHvplwB17Uy6jw5ypDdA6McI"
+BOT_TOKEN = "7740623914:AAH2YTQYknxjzOAe4Wx43ZT20bIVPYOfPNM"
 CHANNEL_ID = -1002384289961
 UPI_QR_PATH = "upi_qr.png"
 INVITE_LINK = "https://t.me/+taeC5o_jA941M2E0"
